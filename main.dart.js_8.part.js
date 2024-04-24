@@ -584,8 +584,9 @@ w=this.a
 v=w.id=J.aq(e.a)+474+2+3+2
 if(v<x){new A.d0(A.bZ()).dg()
 return A.M("Error numsol < lista",u,u,u,u,u,A.ae(u,u,C.a6,u,u,u,u,u,t,u,u,15,u,u,C.y,u,u,!0,u,u,u,u,u,u,u,u),u,u,u,u)}else if(v===x){new A.d0(A.bZ()).dg()
-return A.M("Id solicitud repetida",u,u,u,u,u,A.ae(u,u,C.a6,u,u,u,u,u,t,u,u,15,u,u,C.y,u,u,!0,u,u,u,u,u,u,u,u),u,u,u,u)}else if(x-v!==1){new A.d0(A.bZ()).dg()
-return A.M("Error, se duplico algo",u,u,u,u,u,A.ae(u,u,C.a6,u,u,u,u,u,t,u,u,15,u,u,C.y,u,u,!0,u,u,u,u,u,u,u,u),u,u,u,u)}else{new A.d0(A.bZ()).dg()
+return A.M("Id solicitud repetida",u,u,u,u,u,A.ae(u,u,C.a6,u,u,u,u,u,t,u,u,15,u,u,C.y,u,u,!0,u,u,u,u,u,u,u,u),u,u,u,u)}else if(v-x!==1){new A.d0(A.bZ()).dg()
+w=w.id
+return A.M("Error, se duplico algo "+w,u,u,u,u,u,A.ae(u,u,C.a6,u,u,u,u,u,t,u,u,15,u,u,C.y,u,u,!0,u,u,u,u,u,u,u,u),u,u,u,u)}else{new A.d0(A.bZ()).dg()
 w=C.d.k(w.id)
 return A.M(w,u,u,u,u,u,A.ae(u,u,C.a6,u,u,u,u,u,t,u,u,15,u,u,C.y,u,u,!0,u,u,u,u,u,u,u,u),u,u,u,u)}},
 $C:"$3",
@@ -882,4 +883,4 @@ D.aGM=new A.bP("Esperando",null,null,null,null,null,null,null,null,null,null,nul
 D.aGS=new A.bP("Disponible",null,null,null,null,null,null,null,null,null,null,null,null)
 D.aGY=new A.bP("New solicitud",null,null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_8",e:"endPart",h:b})})($__dart_deferred_initializers__,"VXe9afy2Bel6WYKr4wBBfW67hC4=");
+a.eventLog.push({p:"main.dart.js_8",e:"endPart",h:b})})($__dart_deferred_initializers__,"w5u5QO7VSQXEoQh5S+wCGTmu2tI=");
