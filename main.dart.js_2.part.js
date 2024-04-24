@@ -180,7 +180,7 @@ return B.q($async$I1,w)},
 C(d){var x=this.k2
 if(x===$?this.k2=!1:x)return B.fo(new A.bj6(this),y.l)
 else return C.bM},
-k_(d,e,f,g){var x,w=this,v=null,u=B.af(v,v,C.u,v,v,v,v,v,"Poppins",v,v,14,v,v,C.T,v,v,!0,v,v,v,v,v,v,v,v),t=y.p,s=B.b([],t),r=w.e
+k_(d,e,f,g){var x,w=this,v=null,u=B.ae(v,v,C.u,v,v,v,v,v,"Poppins",v,v,14,v,v,C.T,v,v,!0,v,v,v,v,v,v,v,v),t=y.p,s=B.b([],t),r=w.e
 if(!r[f]){x=w.a.c
 x=B.b([B.ab(v,B.M(d+" : "+e,v,v,v,v,v,u,v,v,v,v),C.i,v,v,v,v,v,v,C.oe,D.agg,v,v,x-60)],t)
 if(!g)x.push(B.dT(B.bW(v,C.k0,C.w,!1,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,new A.bjm(w,f),v,v,v,v,v,v),C.be,v,v,v,v,v))
@@ -265,8 +265,8 @@ this.d.hP().br(0,new A.bzk(this),y.P)},
 C(d){var x=this.e
 if(x===$?this.e=!1:x)return B.fo(new A.bzi(this),y.l)
 else return C.bM},
-Ue(d,e){var x=null,w=B.af(x,x,C.ai,x,x,x,x,x,"Poppins",x,x,14,x,x,C.T,x,x,!0,x,x,x,x,x,x,x,x)
-return new B.X(D.afJ,B.ai(B.b([B.M(e,x,x,x,x,x,B.af(x,x,C.ai,x,x,x,x,x,"Poppins",x,x,15,x,x,C.y,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),B.M(d,x,x,x,x,x,w,x,x,x,x)],y.p),C.f,C.a4,C.h,x),x)}}
+Ue(d,e){var x=null,w=B.ae(x,x,C.ai,x,x,x,x,x,"Poppins",x,x,14,x,x,C.T,x,x,!0,x,x,x,x,x,x,x,x)
+return new B.X(D.afJ,B.ai(B.b([B.M(e,x,x,x,x,x,B.ae(x,x,C.ai,x,x,x,x,x,"Poppins",x,x,15,x,x,C.y,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),B.M(d,x,x,x,x,x,w,x,x,x,x)],y.p),C.f,C.a4,C.h,x),x)}}
 var z=a.updateTypes([])
 A.bj9.prototype={
 $0(){var x=this.a
@@ -298,7 +298,7 @@ w=x.d
 x=x.c
 v=h.cx
 u=v.a
-u=B.M("A\xf1adir Tutor",j,j,j,j,j,B.af(j,j,u,j,j,j,j,j,"Poppins",j,j,24,j,j,C.y,j,j,!0,j,j,j,j,j,j,j,j),j,j,j,j)
+u=B.M("A\xf1adir Tutor",j,j,j,j,j,B.ae(j,j,u,j,j,j,j,j,"Poppins",j,j,24,j,j,C.y,j,j,!0,j,j,j,j,j,j,j,j),j,j,j,j)
 t=h.k_("Nombre Whatsap",i.a,0,!0)
 s=h.k_("Nombre Completo",i.b,1,!1)
 r=h.k_("Numero de Whatsapp",C.d.k(i.c),2,!1)
@@ -314,10 +314,10 @@ if(h.x){u=B.b([],k)
 if(!h.k3){t=h.a.c
 s=J.bX(h.r,new A.bj_(),y.u)
 s=B.K(s,!0,B.l(s).i("a9.E"))
-new B.oB(B.c_()).dj()
-u.push(B.ab(j,B.eN(j,new B.aP(C.a8,j,j,B.bv(10),j,j,j,C.v),s,new A.bj0(h),new A.bj1(h),j,j,y.n),C.i,j,j,j,j,30,j,C.eF,j,j,j,t-50))}u.push(B.bU(v.a,!1,new A.bj2(h),!1,15,C.J,"Subir materia",-1))
+new B.oB(B.bZ()).dg()
+u.push(B.ab(j,B.eN(j,new B.aP(C.a6,j,j,B.bv(10),j,j,j,C.v),s,new A.bj0(h),new A.bj1(h),j,j,y.n),C.i,j,j,j,j,30,j,C.eF,j,j,j,t-50))}u.push(B.bU(v.a,!1,new A.bj2(h),!1,15,C.J,"Subir materia",-1))
 if(!h.k4){t=v.a
-t=B.M("Cuentas Bancarias",j,j,j,j,j,B.af(j,j,t,j,j,j,j,j,"Poppins",j,j,24,j,j,C.y,j,j,!0,j,j,j,j,j,j,j,j),j,j,j,j)
+t=B.M("Cuentas Bancarias",j,j,j,j,j,B.ae(j,j,t,j,j,j,j,j,"Poppins",j,j,24,j,j,C.y,j,j,!0,j,j,j,j,j,j,j,j),j,j,j,j)
 s=h.y
 r=h.z
 q=B.W(r).i("O<1,tm<h>>")
@@ -520,8 +520,8 @@ $C:"$3",
 $R:3,
 $S:1183}
 A.bqH.prototype={
-$2(d,e){var x=null,w=this.b.w[e],v=B.bv(80),u=B.M("Materia: ",x,x,x,x,x,B.af(x,x,C.ai,x,x,x,x,x,"Poppins",x,x,15,x,x,C.y,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),t=w.a,s=y.p
-return new B.X(G.Fq,B.az(B.b([B.ab(C.P,new B.X(D.afV,B.ai(B.b([B.ai(B.b([u,B.M(t,x,x,x,x,x,B.af(x,x,C.ai,x,x,x,x,x,"Poppins",x,x,14,x,x,C.T,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x)],s),C.f,C.j,C.h,x)],s),C.f,C.a4,C.h,x),x),C.i,x,x,new B.aP(C.l,x,x,v,x,x,x,C.v),x,50,x,x,x,x,x,x)],s),C.f,x,C.j,C.h,C.o),x)},
+$2(d,e){var x=null,w=this.b.w[e],v=B.bv(80),u=B.M("Materia: ",x,x,x,x,x,B.ae(x,x,C.ai,x,x,x,x,x,"Poppins",x,x,15,x,x,C.y,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x),t=w.a,s=y.p
+return new B.X(G.Fq,B.az(B.b([B.ab(C.P,new B.X(D.afV,B.ai(B.b([B.ai(B.b([u,B.M(t,x,x,x,x,x,B.ae(x,x,C.ai,x,x,x,x,x,"Poppins",x,x,14,x,x,C.T,x,x,!0,x,x,x,x,x,x,x,x),x,x,x,x)],s),C.f,C.j,C.h,x)],s),C.f,C.a4,C.h,x),x),C.i,x,x,new B.aP(C.l,x,x,v,x,x,x,C.v),x,50,x,x,x,x,x,x)],s),C.f,x,C.j,C.h,C.o),x)},
 $S:76}
 A.bzk.prototype={
 $1(d){var x=this.a
@@ -545,7 +545,7 @@ n=C.b.jK(n)
 w=this.a
 u=w.d.a
 t=y.p
-return new B.X(F.Fp,B.qJ(q,p,B.dk(C.j,C.f,o,B.b([B.M("Cuenta "+n,s,s,s,s,s,B.af(s,s,u,s,s,s,s,s,"Poppins",s,s,18,s,s,C.y,s,s,!0,s,s,s,s,s,s,s,s),s,s,s,s),B.az(B.b([w.Ue(r.d,"Nombre Cuenta:"),w.Ue(r.c,"Numero Cedula: "),w.Ue(r.b,"Numero Cuenta: "),w.Ue(x,"Tipo Cuenta: ")],t),C.f,s,C.j,C.h,C.o)],t),-1,8,5,!1,10,-1),s,C.f3),s)},
+return new B.X(F.Fp,B.qJ(q,p,B.dk(C.j,C.f,o,B.b([B.M("Cuenta "+n,s,s,s,s,s,B.ae(s,s,u,s,s,s,s,s,"Poppins",s,s,18,s,s,C.y,s,s,!0,s,s,s,s,s,s,s,s),s,s,s,s),B.az(B.b([w.Ue(r.d,"Nombre Cuenta:"),w.Ue(r.c,"Numero Cedula: "),w.Ue(r.b,"Numero Cuenta: "),w.Ue(x,"Tipo Cuenta: ")],t),C.f,s,C.j,C.h,C.o)],t),-1,8,5,!1,10,-1),s,C.f3),s)},
 $S:76};(function inheritance(){var x=a.inheritMany
 x(B.N,[A.yy,A.Ep,A.EU,A.Fc])
 x(B.T,[A.afb,A.apP,A.asd,A.auv])
@@ -559,4 +559,4 @@ D.afV=new B.a8(20,5,20,5)
 D.agg=new B.a8(0,5.5,10,5.5)
 D.aGH=new B.bP("Tipo de cuenta",null,null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_2",e:"endPart",h:b})})($__dart_deferred_initializers__,"S8VOycRZh0VcdUYfZhTtl1x6kr0=");
+a.eventLog.push({p:"main.dart.js_2",e:"endPart",h:b})})($__dart_deferred_initializers__,"F48fowwXsjnpU3dh1Lc8c3Zrrb0=");
