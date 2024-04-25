@@ -219,7 +219,7 @@ u===$&&A.a()
 t=y.p
 u=A.b([q,x,w,v,A.jF(new C.bwg(),new A.cb(u,A.l(u).i("cb<1>")),y.y)],t)
 if(p>=1200){q=s.d.a
-u.push(A.aj(A.b([new C.Mh(n,q,r),new C.uG(n,"D < 2 hr","D2hr",o,q,r),new C.uG(n,"D < 4 hr","D4hr",o,q,r),new C.uG(n,"D > 12 hr","D12hr",o,q,r),new C.uG(n,"Esperando","ESPERANDO",o,q,r)],t),B.f,B.j,B.h,r))}if(p<1200&&p>620)u.push(new A.aG(p-60-20,r,new C.M2(s.d.a,r),r))
+u.push(A.aj(A.b([new C.Mh(n,q,r),new C.uG(n,"D < 4 hr","D2hr",o,q,r),new C.uG(n,"D < 12 hr","D6hr",o,q,r),new C.uG(n,"D > 12 hr","D12hr",o,q,r),new C.uG(n,"Esperando","ESPERANDO",o,q,r)],t),B.f,B.j,B.h,r))}if(p<1200&&p>620)u.push(new A.aG(p-60-20,r,new C.M2(s.d.a,r),r))
 if(p<=620)u.push(new A.aG(p-5-20,r,new C.M2(s.d.a,r),r))
 return A.oR(r,new A.Z(F.Fm,A.aj(u,B.f,B.j,B.h,r),r),r)}else return B.bM}}
 C.M2.prototype={
@@ -694,7 +694,7 @@ C.bL_.prototype={
 $3(d,e,f){var x,w=A.b([],y.e),v=this.a,u=v.a.e
 if(u==="D2hr"){u=e.b
 x=A.V(u).i("aB<1>")
-w=A.K(new A.aB(u,new C.bKV(),x),!0,x.i("t.E"))}else if(u==="D4hr"){u=e.b
+w=A.K(new A.aB(u,new C.bKV(),x),!0,x.i("t.E"))}else if(u==="D6hr"){u=e.b
 x=A.V(u).i("aB<1>")
 w=A.K(new A.aB(u,new C.bKW(),x),!0,x.i("t.E"))}else if(u==="D12hr"){u=e.b
 x=A.V(u).i("aB<1>")
@@ -706,11 +706,11 @@ $C:"$3",
 $R:3,
 $S:1196}
 C.bKV.prototype={
-$1(d){return B.d.aj(A.c0(0,0,0,Date.now()-d.f.gbD(),0,0).a,36e8)<2},
+$1(d){return B.d.aj(A.c0(0,0,0,Date.now()-d.f.gbD(),0,0).a,36e8)<4},
 $S:64}
 C.bKW.prototype={
 $1(d){var x=B.d.aj(A.c0(0,0,0,Date.now()-d.f.gbD(),0,0).a,36e8)
-return x>=2&&x<4},
+return x>=2&&x<12},
 $S:64}
 C.bKX.prototype={
 $1(d){return B.d.aj(A.c0(0,0,0,Date.now()-d.f.gbD(),0,0).a,36e8)>=12},
@@ -764,4 +764,4 @@ D.aGJ=new A.bQ("Esperando",null,null,null,null,null,null,null,null,null,null,nul
 D.aGP=new A.bQ("Disponible",null,null,null,null,null,null,null,null,null,null,null,null)
 D.aGV=new A.bQ("New solicitud",null,null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_7",e:"endPart",h:b})})($__dart_deferred_initializers__,"STPh6DThGMV1hwgxCd76Lfc9km0=");
+a.eventLog.push({p:"main.dart.js_7",e:"endPart",h:b})})($__dart_deferred_initializers__,"r/P8wzcH7k56XSKpWUueF5NiZqM=");
