@@ -431,7 +431,7 @@ return B.k(p.dU(),$async$P3)
 case 2:s=p.f
 v=4
 x=7
-return B.k(s.gyJ().wj(d,null),$async$P3)
+return B.k(s.gyK().wk(d,null),$async$P3)
 case 7:p=B.bX()
 r=t.c
 r.toString
@@ -464,7 +464,7 @@ while(true)switch(x){case 0:x=2
 return B.k(B.dt().x5(),$async$Dy)
 case 2:v.x=e
 x=3
-return B.k(B.dt().zk(),$async$Dy)
+return B.k(B.dt().zl(),$async$Dy)
 case 3:v.z=e
 x=4
 return B.k(new B.kW().qI(),$async$Dy)
@@ -523,7 +523,7 @@ s=B.N("Carreras",o,o,o,o,o,B.af(o,o,C.l,o,o,o,o,o,n,o,o,18,o,o,C.y,o,o,!0,o,o,o,
 q=J.bZ(p.z,new A.bGS(p),y.I)
 t.push(new B.Z(C.lO,B.aj(B.b([r,B.az(B.b([new B.Z(C.eF,s,o),new B.Z(C.W,new B.aG(200,30,B.f6(o,o,B.K(q,!0,B.l(q).i("a9.E")),new A.bGT(p),new A.bGU(p),o,C.i8,y.D),o),o)],u),C.f,o,C.j,C.h,C.o)],u),C.f,C.ac,C.h,o),o))}t.push(B.bW(w.a,!1,new A.bGV(p),!0,15,C.K,"Buscar",120))
 s=p.f.length
-if(s!==0)t.push(B.az(B.b([new B.aG(o,400,B.lR(o,new A.bGW(p),s,o,o,o,o,o,o,!1),o),B.bW(w.a,!1,new A.bGX(p),!0,15,C.K,"Copiar numeros de WhatsApp",-1)],u),C.f,o,C.j,C.h,C.o))
+if(s!==0)t.push(B.az(B.b([new B.aG(o,400,B.lS(o,new A.bGW(p),s,o,o,o,o,o,o,!1),o),B.bW(w.a,!1,new A.bGX(p),!0,15,C.K,"Copiar numeros de WhatsApp",-1)],u),C.f,o,C.j,C.h,C.o))
 if(p.f.length===0&&p.r)t.push(new B.Z(C.W,B.N("No hay tutores en esa materia",o,o,o,o,o,B.af(o,o,C.l,o,o,o,o,o,n,o,o,14,o,o,C.U,o,o,!0,o,o,o,o,o,o,o,o),o,o,o,o),o))
 if(!p.r)t.push(new B.Z(C.W,B.N("Seleccione una mater\xeda para realizar la busqueda",o,o,o,o,o,B.af(o,o,C.l,o,o,o,o,o,n,o,o,14,o,o,C.U,o,o,!0,o,o,o,o,o,o,o,o),o,o,o,o),o))
 return B.dk(C.j,C.f,v,t,-1,0,5,!1,0,x)}else return C.bM},
@@ -781,7 +781,7 @@ n.a.toString
 x.push(B.ac(m,new B.cV(C.a6,m,C.a9,C.B,w,m),C.i,m,m,m,m,v,m,m,m,m,m,v))
 n.a.toString
 return B.ho(C.T,!0,m,B.ac(m,B.az(x,C.f,m,C.I,C.aH,C.o),C.i,m,m,m,m,m,m,m,m,m,m,m),C.i,C.p,0,m,m,m,m,m,C.cs)},
-gw8(){this.a.toString
+gw9(){this.a.toString
 return!0}}
 A.azF.prototype={
 a6(d,e){var x=this,w=new B.f(e.a/2,e.b/2),v=x.w
@@ -799,7 +799,7 @@ this.ju()}}
 A.a7e.prototype={
 af(){this.au()
 this.a.toString
-this.wB()},
+this.wC()},
 jU(){var x=this.kN$
 if(x!=null){x.ah()
 x.ix()
@@ -856,7 +856,7 @@ $0(){return this.a.cx=!0},
 $S:0}
 A.c_1.prototype={
 $3(d,e,f){var x=null,w=e.a,v=this.a
-return B.az(B.b([v.bop(e.b),B.ac(x,B.lR(x,new A.c_0(v,w),w.length,x,x,x,x,x,x,!1),C.i,x,x,x,x,this.b*0.6,x,x,x,x,x,x)],y.p),C.f,x,C.j,C.h,C.o)},
+return B.az(B.b([v.bop(e.b),B.ac(x,B.lS(x,new A.c_0(v,w),w.length,x,x,x,x,x,x,!1),C.i,x,x,x,x,this.b*0.6,x,x,x,x,x,x)],y.p),C.f,x,C.j,C.h,C.o)},
 $C:"$3",
 $R:3,
 $S:290}
@@ -883,7 +883,7 @@ A.bZZ.prototype={
 $0(){var x=this.a,w=B.c7(x,!1,y.l)
 w.d=this.b
 w.ah()
-B.lJ(x).oI(0,"/home/detalles_tutor",null)},
+B.lK(x).oI(0,"/home/detalles_tutor",null)},
 $S:0}
 A.c__.prototype={
 $0(){this.a.P3(this.b.e)},
@@ -1409,7 +1409,7 @@ x(A.a7d,B.fB)
 x(A.a7e,B.pn)})()
 B.uY(b.typeUniverse,JSON.parse('{"MM":{"M":[],"c":[]},"No":{"M":[],"c":[]},"a62":{"M":[],"c":[]},"Nb":{"M":[],"c":[]},"Nn":{"M":[],"c":[]},"x4":{"M":[],"c":[]},"MN":{"T":["x4"]},"avr":{"T":["MM"]},"aAh":{"T":["No"]},"aJP":{"T":["a62"]},"aze":{"T":["Nb"]},"aAg":{"T":["Nn"]},"Ra":{"M":[],"c":[]},"azG":{"T":["Ra"]},"azF":{"am":[]}}'))
 var y=(function rtii(){var x=B.aC
-return{I:x("bb<eZ>"),u:x("bb<dS>"),b:x("bb<h>"),m:x("bb<dV>"),j:x("bb<eJ>"),D:x("eZ"),g:x("jP"),V:x("x<eZ>"),C:x("x<dS>"),M:x("x<jx>"),q:x("x<ev>"),e:x("x<ha>"),s:x("x<h>"),W:x("x<dV>"),B:x("x<eJ>"),p:x("x<c>"),n:x("x<a4>"),Q:x("J<eZ>"),G:x("J<dS>"),R:x("J<dV>"),A:x("J<eJ>"),U:x("aL<h,a4>"),o:x("dS"),w:x("lU"),P:x("bC"),N:x("h"),L:x("dV"),t:x("aY<a4>"),Y:x("eJ"),F:x("kb"),l:x("jG"),k:x("c"),i:x("a4"),z:x("@"),X:x("G?"),H:x("~")}})();(function constants(){D.a7G=new A.aT6(1,"round")
+return{I:x("bb<eZ>"),u:x("bb<dS>"),b:x("bb<h>"),m:x("bb<dV>"),j:x("bb<eJ>"),D:x("eZ"),g:x("jP"),V:x("x<eZ>"),C:x("x<dS>"),M:x("x<jx>"),q:x("x<ev>"),e:x("x<ha>"),s:x("x<h>"),W:x("x<dV>"),B:x("x<eJ>"),p:x("x<c>"),n:x("x<a4>"),Q:x("J<eZ>"),G:x("J<dS>"),R:x("J<dV>"),A:x("J<eJ>"),U:x("aL<h,a4>"),o:x("dS"),w:x("lV"),P:x("bC"),N:x("h"),L:x("dV"),t:x("aY<a4>"),Y:x("eJ"),F:x("kb"),l:x("jG"),k:x("c"),i:x("a4"),z:x("@"),X:x("G?"),H:x("~")}})();(function constants(){D.a7G=new A.aT6(1,"round")
 D.Eb=new B.n(4290299851)
 D.afw=new B.a8(0,22,0,15)
 D.afX=new B.a8(30,15,30,15)
@@ -1421,4 +1421,4 @@ D.aGD=new B.bQ("Tutores",null,null,null,null,null,null,null,null,null,null,null,
 D.aH2=new B.bQ("Nuevo tutor",null,null,null,null,null,null,null,null,null,null,null,null)
 D.aH6=new B.bQ("Estadisticas globales",null,null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_13",e:"endPart",h:b})})($__dart_deferred_initializers__,"G9IaW4aWPiLMNLEDr87MIqcDu2s=");
+a.eventLog.push({p:"main.dart.js_13",e:"endPart",h:b})})($__dart_deferred_initializers__,"vF6Hg7cA1K+HWq92Tv5Duup4Hb4=");
