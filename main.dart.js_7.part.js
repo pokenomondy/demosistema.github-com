@@ -154,13 +154,13 @@ p.x=A.en(o,o,o,!1,y.G)
 p.y=A.en(o,o,o,!1,y.f)
 p.Q=A.en(o,o,o,!1,y.A)
 p.as=A.en(o,o,o,!1,y.y)
-if((x.b&4)===0){A.aS("ejecutando primero de solicitudes list")
+if((x.b&4)===0){A.aR("ejecutando primero de solicitudes list")
 x=p.c
 x.toString
 w=p.f.nj(x,"ADMIN")
 p.r.jG(0,w)}if((p.w.b&4)===0){x=p.c
 x.toString
-v=p.f.pm(x)
+v=p.f.pn(x)
 p.w.jG(0,v)}if((p.x.b&4)===0){x=p.c
 x.toString
 u=p.f.o2(x)
@@ -178,7 +178,7 @@ x.toString
 q=p.f.lT(x,"ADMIN","")
 p.as.jG(0,q)}},
 p(){var x,w=this
-A.aS("Solicitudes se est\xe1 cerrando")
+A.aR("Solicitudes se est\xe1 cerrando")
 x=w.r
 x===$&&A.a()
 if((x.b&1)!==0)x.aP(0)
@@ -225,7 +225,7 @@ return A.oS(r,new A.Z(F.Fl,A.ai(u,B.f,B.j,B.h,r),r),r)}else return B.bM}}
 C.M3.prototype={
 W(){return new C.aty(B.k)}}
 C.aty.prototype={
-p(){A.aS("solicityudes se disposea")
+p(){A.aR("solicityudes se disposea")
 this.aH()},
 C(d){var x,w,v=null,u=y.w,t=A.ax(d,v,u).w.a.a
 u=A.ax(d,v,u).w
@@ -301,7 +301,7 @@ if(w!=null){w=J.bX(w,new C.byd(n),y.x)
 t.push(new A.Z(B.W,A.aw(A.J(w,!0,A.l(w).i("a8.E")),B.f,m,B.j,B.h,B.o),m))}w=n.db
 if(w!==0){s=n.CW
 s=s==null?m:J.aq(s)
-t.push(A.aw(A.b([A.L(""+w+" archivos de "+A.k(s),m,m,m,m,m,m,m,m,m,m)],u),B.f,m,B.j,B.h,B.o))}t.push(A.fo(new C.bye(n),x))
+t.push(A.aw(A.b([A.L(""+w+" archivos de "+A.j(s),m,m,m,m,m,m,m,m,m,m)],u),B.f,m,B.j,B.h,B.o))}t.push(A.fo(new C.bye(n),x))
 new A.d0(A.bZ()).dh()
 t.push(A.ai(A.b([A.L("No enviar notificacion",m,m,m,m,m,A.af(m,m,B.a5,m,m,m,m,m,l,m,m,15,m,m,B.x,m,m,!0,m,m,m,m,m,m,m,m),m,m,m,m),G.Fm(n.k1,new C.byf(n))],u),B.f,B.j,B.h,m))
 t.push(A.bU(n.a.d,!1,new C.byg(n),!0,15,B.J,"Subir servicio",-1))
@@ -309,9 +309,9 @@ v.push(A.aw(t,B.f,m,B.j,B.h,B.o))}return A.ab(m,new A.Z(D.ag1,A.eK(A.aw(v,B.f,m,
 kE(){var x=0,w=A.r(y.z),v=this,u,t,s,r
 var $async$kE=A.m(function(d,e){if(d===1)return A.o(e,w)
 while(true)switch(x){case 0:x=2
-return A.j($.a8G().m8(!0,B.lT),$async$kE)
+return A.k($.a8G().m8(!0,B.lT),$async$kE)
 case 2:r=e
-if(r!=null&&J.iy(r.a)){u=r.a
+if(r!=null&&J.iz(r.a)){u=r.a
 t=J.cP(u)
 s=t.gaa(u).b
 B.b.gU(t.gaa(u).b.split("."))
@@ -334,7 +334,7 @@ x=6
 break
 case 7:v.A(new C.byi(v))
 x=8
-return A.j(v.ZH(),$async$PE)
+return A.k(v.ZH(),$async$PE)
 case 8:v.A(new C.byj(v))
 u=v.ch
 u=A.V(A.av(u),A.aM(u),A.by(u),A.cA(u),A.cE(u),0,0,!1)
@@ -343,8 +343,8 @@ t=v.e.a.a
 m=A
 l=J
 x=9
-return A.j(A.em(),$async$PE)
-case 9:s=m.aR(l.X(f.a,"nameTutor"))
+return A.k(A.em(),$async$PE)
+case 9:s=m.aS(l.X(f.a,"nameTutor"))
 if(s==null)s=""
 r=A.ex()
 q=v.f.a.a
@@ -356,16 +356,16 @@ v.bqV()
 case 6:case 3:return A.p(null,w)}})
 return A.q($async$PE,w)},
 byC(){var x,w,v,u,t,s,r,q,p,o,n=this
-A.aS("ejecutando probarenvio, vamos a ver")
+A.aR("ejecutando probarenvio, vamos a ver")
 x=n.c
 x.toString
 x=A.c7(x,!1,y.j).c
 n.at=x
-A.aS("la lista es "+x.length)
+A.aR("la lista es "+x.length)
 w=A.b([],y.Z)
 for(x=n.at,v=x.length,u=n.e,t=0;t<x.length;x.length===v||(0,A.R)(x),++t){s=x[t]
 r=s.w
-for(q=r.length,p=s.c,o=0;o<r.length;r.length===q||(0,A.R)(r),++o)if(r[o].a===u.a.a)w.push(p)}A.aS("la lista tiene "+A.k(w))
+for(q=r.length,p=s.c,o=0;o<r.length;r.length===q||(0,A.R)(r),++o)if(r[o].a===u.a.a)w.push(p)}A.aR("la lista tiene "+A.j(w))
 n.xN(w)},
 xN(d){return this.bvl(d)},
 bvl(d){var x=0,w=A.r(y.H),v=1,u,t=this,s,r,q,p,o,n,m,l,k
@@ -375,13 +375,13 @@ p=$.cN
 o=(p==null?$.cN=$.fx():p).iI(0,"[DEFAULT]")
 A.cL(o,$.fW(),!0)
 s=A.TD(new A.eN(o)).HC("envioSolicitudes")
-A.aS("ejecutando llamar funcion firebase")
-A.aS(s)
+A.aR("ejecutando llamar funcion firebase")
+A.aR(s)
 p=y.z
 x=6
-return A.j(s.$1$1(A.a_(["numeros",d,"tiposervicio",t.f.a.a,"idsolicitud",B.d.k(t.id),"materia",t.e.a.a,"fechaentrega",A.bR("dd/MM/yyyy",null).b8(t.ch),"horaentrega",A.bR("hh:mma",null).b8(t.ch),"resumen",t.x.a.a,"infocliente",t.y.a.a,"urlArchivo",t.dy],y.N,p),p),$async$xN)
+return A.k(s.$1$1(A.a_(["numeros",d,"tiposervicio",t.f.a.a,"idsolicitud",B.d.k(t.id),"materia",t.e.a.a,"fechaentrega",A.bR("dd/MM/yyyy",null).b8(t.ch),"horaentrega",A.bR("hh:mma",null).b8(t.ch),"resumen",t.x.a.a,"infocliente",t.y.a.a,"urlArchivo",t.dy],y.N,p),p),$async$xN)
 case 6:r=f
-A.aS("Resultado de la funci\xf3n: "+A.k(r.a))
+A.aR("Resultado de la funci\xf3n: "+A.j(r.a))
 p=A.ca()
 n=r.a
 m=t.c
@@ -393,7 +393,7 @@ break
 case 3:v=2
 k=u
 q=A.az(k)
-A.aS("tenemos un error "+A.k(q))
+A.aR("tenemos un error "+A.j(q))
 x=5
 break
 case 2:x=1
@@ -413,13 +413,13 @@ q=v.c
 q.toString
 p=C
 x=4
-return A.j(u.q8(t,s,r,q),$async$ZH)
+return A.k(u.q8(t,s,r,q),$async$ZH)
 case 4:v.A(new p.byh(v,e))
 case 3:return A.p(null,w)}})
 return A.q($async$ZH,w)},
 bqV(){this.A(new C.bxT(this))},
 QY(d,e){var x=null,w=y.p
-return A.aw(A.b([A.ab(x,this.yk(),B.i,x,x,x,x,x,x,new A.a9(0,10,0,0),x,x,x,x),A.ab(x,A.ai(A.b([A.bL(new A.aG(x,x,A.iQ(!0,B.aX,!1,B.B,A.iX(),this.x,x,x,B.aY,1,new A.aQ(B.a5,x,x,A.bv(20),x,x,x,B.v),B.w,!0,x,!0,x,!1,x,x,x,x,x,x,x,x,x,x,x,x,!1,"\u2022",x,x,x,x,x,B.c2,d,x,x,B.aw,!1,x,!0,x,B.bk,x,x,B.b8,B.b1,x,x,x,x,x,x,x,B.aw,B.H,x,B.bv,x,x,x),x),1)],w),B.f,B.ac,B.h,x),B.i,x,x,x,x,x,x,new A.a9(0,10,0,0),x,x,x,x),A.ab(x,A.ai(A.b([A.bL(new A.aG(x,x,A.iQ(!0,B.aX,!1,B.B,A.iX(),this.y,x,x,B.aY,1,new A.aQ(B.a5,x,x,A.bv(20),x,x,x,B.v),B.w,!0,x,!0,x,!1,x,x,x,x,x,x,x,x,x,x,x,x,!1,"\u2022",x,x,x,x,x,B.c2,e,x,x,B.aw,!1,x,!0,x,B.bk,x,x,B.b8,B.b1,x,x,x,x,x,x,x,B.aw,B.H,x,B.bv,x,x,x),x),1)],w),B.f,B.ac,B.h,x),B.i,x,x,x,x,x,x,new A.a9(0,10,0,0),x,x,x,x)],w),B.f,x,B.j,B.h,B.o)},
+return A.aw(A.b([A.ab(x,this.yk(),B.i,x,x,x,x,x,x,new A.a9(0,10,0,0),x,x,x,x),A.ab(x,A.ai(A.b([A.bL(new A.aG(x,x,A.iR(!0,B.aX,!1,B.B,A.iY(),this.x,x,x,B.aY,1,new A.aQ(B.a5,x,x,A.bv(20),x,x,x,B.v),B.w,!0,x,!0,x,!1,x,x,x,x,x,x,x,x,x,x,x,x,!1,"\u2022",x,x,x,x,x,B.c2,d,x,x,B.aw,!1,x,!0,x,B.bk,x,x,B.b8,B.b1,x,x,x,x,x,x,x,B.aw,B.H,x,B.bv,x,x,x),x),1)],w),B.f,B.ac,B.h,x),B.i,x,x,x,x,x,x,new A.a9(0,10,0,0),x,x,x,x),A.ab(x,A.ai(A.b([A.bL(new A.aG(x,x,A.iR(!0,B.aX,!1,B.B,A.iY(),this.y,x,x,B.aY,1,new A.aQ(B.a5,x,x,A.bv(20),x,x,x,B.v),B.w,!0,x,!0,x,!1,x,x,x,x,x,x,x,x,x,x,x,x,!1,"\u2022",x,x,x,x,x,B.c2,e,x,x,B.aw,!1,x,!0,x,B.bk,x,x,B.b8,B.b1,x,x,x,x,x,x,x,B.aw,B.H,x,B.bv,x,x,x),x),1)],w),B.f,B.ac,B.h,x),B.i,x,x,x,x,x,x,new A.a9(0,10,0,0),x,x,x,x)],w),B.f,x,B.j,B.h,B.o)},
 yk(){var x,w=this,v=null,u=new A.d0(A.bZ())
 u.dh()
 x=w.ch
@@ -440,7 +440,7 @@ bqa(d){return A.mo(new C.bLi(this),d,y.X)},
 aWC(d){var x,w=null,v=A.ca(),u=new C.bLb(v),t=new C.bLa(v),s=this.a.r,r=s.a
 r=A.z(0,r>>>16&255,r>>>8&255,r&255)
 x=y.p
-return A.iE(w,r,A.dg(B.I,B.f,B.l,A.b([A.L("Informacion de solicitudes",w,w,w,w,w,A.af(w,w,s,w,w,w,w,w,"Poppins",w,w,20,w,w,B.x,w,w,!0,w,w,w,w,w,w,w,w),w,w,w,w),A.aw(A.b([u.$1("Disponible"),t.$1("Las solicitudes en disponible son las solicitudes realizadas por un cliente que esperan a ser cotizadas por un tutor"),u.$1("Esperando"),t.$1("Las solicitudes en esperando son las solicitudes que ya tienen cotizaci\xf3n y esta se le dio al cliente, estamos esperando respuesta del cliente"),u.$1("Expirado"),t.$1("Las solicitudes en expirado son las solicitudes que el cliente no acepto"),u.$1("No podemos"),t.$1("Las solicitudes en no podemos son las solicitudes en las que no encontramos cotizaci\xf3n por parte de nuestros tutores, nosotros no podemos realizarlas")],x),B.bF,w,B.j,B.h,B.o),A.bU(B.bN,!1,new C.bL9(d),!1,15,B.J," Cerrar ",-1)],x),450,20,5,!0,15,350),B.i,w,B.cg,w,w,w)}}
+return A.iF(w,r,A.dg(B.I,B.f,B.l,A.b([A.L("Informacion de solicitudes",w,w,w,w,w,A.af(w,w,s,w,w,w,w,w,"Poppins",w,w,20,w,w,B.x,w,w,!0,w,w,w,w,w,w,w,w),w,w,w,w),A.aw(A.b([u.$1("Disponible"),t.$1("Las solicitudes en disponible son las solicitudes realizadas por un cliente que esperan a ser cotizadas por un tutor"),u.$1("Esperando"),t.$1("Las solicitudes en esperando son las solicitudes que ya tienen cotizaci\xf3n y esta se le dio al cliente, estamos esperando respuesta del cliente"),u.$1("Expirado"),t.$1("Las solicitudes en expirado son las solicitudes que el cliente no acepto"),u.$1("No podemos"),t.$1("Las solicitudes en no podemos son las solicitudes en las que no encontramos cotizaci\xf3n por parte de nuestros tutores, nosotros no podemos realizarlas")],x),B.bF,w,B.j,B.h,B.o),A.bU(B.bN,!1,new C.bL9(d),!1,15,B.J," Cerrar ",-1)],x),450,20,5,!0,15,350),B.i,w,B.cg,w,w,w)}}
 C.a__.prototype={
 W(){return new C.atv(A.b([],y.B),A.ca(),B.k)}}
 C.atv.prototype={
@@ -448,7 +448,7 @@ C(d){var x=null,w=A.bv(20)
 return A.dT(A.bV(x,A.ab(x,A.dd(B.Ht,A.bZ().a,x,x,x,30),B.i,x,x,new A.aQ(B.a5,x,x,w,x,x,x,B.v),x,30,x,x,x,x,x,30),B.w,!1,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,new C.bwr(this,d),x,x,x,x,x,x),B.bd,x,x,x,x,x)},
 bfO(d){return A.mo(new C.bwq(this),d,y.X)},
 aWz(d){var x=null
-return A.iE(x,A.z(0,255,255,255),A.aVw(new C.bwp(this),y.g,y.F,y.C),B.i,x,B.cg,x,x,x)}}
+return A.iF(x,A.z(0,255,255,255),A.aVw(new C.bwp(this),y.g,y.F,y.C),B.i,x,B.cg,x,x,x)}}
 var z=a.updateTypes([])
 C.bwz.prototype={
 $1(d){var x=this.a
@@ -461,7 +461,7 @@ C.bwt.prototype={
 $2(d,e){var x,w=null
 if(e.a===B.c8)return B.b7
 else{x=e.c
-if(x!=null)return A.L("Error solicitud: "+A.k(x),w,w,w,w,w,w,w,w,w,w)
+if(x!=null)return A.L("Error solicitud: "+A.j(x),w,w,w,w,w,w,w,w,w,w)
 else{e.b.toString
 return A.L("",w,w,w,w,w,w,w,w,w,w)}}},
 $S:1197}
@@ -469,28 +469,28 @@ C.bwu.prototype={
 $2(d,e){var x,w=null
 if(e.a===B.c8)return B.b7
 else{x=e.c
-if(x!=null)return A.L("Error solicitud: "+A.k(x),w,w,w,w,w,w,w,w,w,w)
+if(x!=null)return A.L("Error solicitud: "+A.j(x),w,w,w,w,w,w,w,w,w,w)
 else return B.b7}},
 $S:444}
 C.bwv.prototype={
 $2(d,e){var x,w=null
 if(e.a===B.c8)return B.b7
 else{x=e.c
-if(x!=null)return A.L("Error solicitud: "+A.k(x),w,w,w,w,w,w,w,w,w,w)
+if(x!=null)return A.L("Error solicitud: "+A.j(x),w,w,w,w,w,w,w,w,w,w)
 else return B.b7}},
 $S:238}
 C.bww.prototype={
 $2(d,e){var x,w=null
 if(e.a===B.c8)return B.b7
 else{x=e.c
-if(x!=null)return A.L("Error solicitud: "+A.k(x),w,w,w,w,w,w,w,w,w,w)
+if(x!=null)return A.L("Error solicitud: "+A.j(x),w,w,w,w,w,w,w,w,w,w)
 else return B.b7}},
 $S:1198}
 C.bwx.prototype={
 $2(d,e){var x,w=null
 if(e.a===B.c8)return B.b7
 else{x=e.c
-if(x!=null)return A.L("Error solicitud: "+A.k(x),w,w,w,w,w,w,w,w,w,w)
+if(x!=null)return A.L("Error solicitud: "+A.j(x),w,w,w,w,w,w,w,w,w,w)
 else return B.b7}},
 $S:145}
 C.bwB.prototype={
@@ -643,7 +643,7 @@ if(!A.P(s))A.i(A.T(s))
 r=A.V(2100,1,1,0,0,0,0,!1)
 if(!A.P(r))A.i(A.T(r))
 x=3
-return A.j(A.xQ(o,new A.y(s,!1),null,t,new A.y(r,!1)),$async$$0)
+return A.k(A.xQ(o,new A.y(s,!1),null,t,new A.y(r,!1)),$async$$0)
 case 3:q=e
 if(q==null){x=1
 break}o=q.gJ()
@@ -667,7 +667,7 @@ p=q.c
 p.toString
 t=q.ch
 x=3
-return A.j(A.a8C(p,new A.cW(A.cA(t),A.cE(t))),$async$$0)
+return A.k(A.a8C(p,new A.cW(A.cA(t),A.cE(t))),$async$$0)
 case 3:s=e
 if(s==null){x=1
 break}p=q.ch
@@ -764,4 +764,4 @@ D.aGJ=new A.bH("Esperando",null,null,null,null,null,null,null,null,null,null,nul
 D.aGP=new A.bH("Disponible",null,null,null,null,null,null,null,null,null,null,null,null)
 D.aGV=new A.bH("New solicitud",null,null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_7",e:"endPart",h:b})})($__dart_deferred_initializers__,"sMdcOHiry/DMGeZI3Es066wsT+o=");
+a.eventLog.push({p:"main.dart.js_7",e:"endPart",h:b})})($__dart_deferred_initializers__,"V6SIr96nhpXORofBvO0erOJWRZo=");

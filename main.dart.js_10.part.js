@@ -41,9 +41,9 @@ C(d){var x,w,v,u,t,s,r,q,p,o,n=this,m=null,l=n.d,k=l.a
 k=A.L("Subir nuevo prospecto",m,m,m,m,m,A.af(m,m,k,m,m,m,m,m,"Poppins",m,m,20,m,m,B.x,m,m,!0,m,m,m,m,m,m,m,m),m,m,m,m)
 x=y.u
 w=A.ai(A.b([A.L("Prospecto?",m,m,m,m,m,m,m,m,m,m),F.Fm(n.e,new C.bxH(n))],x),B.f,B.j,B.h,m)
-v=A.ai(A.b([D.aH3,new A.Z(B.W,new A.aG(300,m,A.iQ(!0,B.aX,!1,B.B,A.iX(),n.f,m,m,B.aY,1,new A.aQ(m,m,m,A.bv(20),m,m,m,B.v),B.w,!0,m,!0,m,!1,m,m,m,m,m,m,m,m,m,m,m,m,!1,"\u2022",m,m,m,m,m,B.c2,"Nombre Whatsapp cliente",m,m,B.aw,!1,m,!0,m,B.bk,m,m,B.b8,B.b1,m,m,m,m,m,m,m,B.aw,B.H,m,B.bv,m,m,m),m),m)],x),B.f,B.j,B.h,m)
-u=A.ai(A.b([A.L("Nombre Completo",m,m,m,m,m,m,m,m,m,m),A.bL(new A.Z(B.W,new A.aG(m,m,A.iQ(!0,B.aX,!1,B.B,A.iX(),n.r,m,m,B.aY,1,new A.aQ(m,m,m,A.bv(20),m,m,m,B.v),B.w,!0,m,!0,m,!1,m,m,m,m,m,m,m,m,m,m,m,m,!1,"\u2022",m,m,m,m,m,B.c2,"Nombre completo del cliente",m,m,B.aw,!1,m,!0,m,B.bk,m,m,B.b8,B.b1,m,m,m,m,m,m,m,B.aw,B.H,m,B.bv,m,m,m),m),m),1)],x),B.f,B.j,B.h,m)
-t=A.ai(A.b([D.aGp,new A.Z(B.W,new A.aG(300,m,A.iQ(!0,B.aX,!1,B.B,A.iX(),n.w,m,m,B.aY,1,new A.aQ(m,m,m,A.bv(20),m,m,m,B.v),B.w,!0,m,!0,m,!1,m,m,m,m,m,m,m,m,m,m,m,m,!1,"\u2022",m,m,m,m,m,B.c2,"Numero del cliente",m,m,B.aw,!1,m,!0,m,B.bk,m,m,B.b8,B.b1,m,m,m,m,m,m,m,B.aw,B.H,m,B.bv,m,m,m),m),m)],x),B.f,B.j,B.h,m)
+v=A.ai(A.b([D.aH3,new A.Z(B.W,new A.aG(300,m,A.iR(!0,B.aX,!1,B.B,A.iY(),n.f,m,m,B.aY,1,new A.aQ(m,m,m,A.bv(20),m,m,m,B.v),B.w,!0,m,!0,m,!1,m,m,m,m,m,m,m,m,m,m,m,m,!1,"\u2022",m,m,m,m,m,B.c2,"Nombre Whatsapp cliente",m,m,B.aw,!1,m,!0,m,B.bk,m,m,B.b8,B.b1,m,m,m,m,m,m,m,B.aw,B.H,m,B.bv,m,m,m),m),m)],x),B.f,B.j,B.h,m)
+u=A.ai(A.b([A.L("Nombre Completo",m,m,m,m,m,m,m,m,m,m),A.bL(new A.Z(B.W,new A.aG(m,m,A.iR(!0,B.aX,!1,B.B,A.iY(),n.r,m,m,B.aY,1,new A.aQ(m,m,m,A.bv(20),m,m,m,B.v),B.w,!0,m,!0,m,!1,m,m,m,m,m,m,m,m,m,m,m,m,!1,"\u2022",m,m,m,m,m,B.c2,"Nombre completo del cliente",m,m,B.aw,!1,m,!0,m,B.bk,m,m,B.b8,B.b1,m,m,m,m,m,m,m,B.aw,B.H,m,B.bv,m,m,m),m),m),1)],x),B.f,B.j,B.h,m)
+t=A.ai(A.b([D.aGp,new A.Z(B.W,new A.aG(300,m,A.iR(!0,B.aX,!1,B.B,A.iY(),n.w,m,m,B.aY,1,new A.aQ(m,m,m,A.bv(20),m,m,m,B.v),B.w,!0,m,!0,m,!1,m,m,m,m,m,m,m,m,m,m,m,m,!1,"\u2022",m,m,m,m,m,B.c2,"Numero del cliente",m,m,B.aw,!1,m,!0,m,B.bk,m,m,B.b8,B.b1,m,m,m,m,m,m,m,B.aw,B.H,m,B.bv,m,m,m),m),m)],x),B.f,B.j,B.h,m)
 s=J.bX(n.a.d,new C.bxI(),y.q)
 s=A.ai(A.b([D.aGF,new A.Z(B.W,new A.aG(200,30,A.f_(n.x,m,A.J(s,!0,A.l(s).i("a8.E")),m,m,m,m,y.o),m),m)],x),B.f,B.j,B.h,m)
 r=n.a.e
@@ -64,7 +64,7 @@ p.push(A.ai(A.b([E.BI,new A.aG(400,m,new A.Z(B.W,A.f_(n.as,new A.aQ(B.a5,m,m,A.b
 return A.aw(p,B.f,m,B.j,B.h,B.o)},
 VN(){var x=0,w=A.r(y.r),v=this,u,t,s,r
 var $async$VN=A.m(function(d,e){if(d===1)return A.o(e,w)
-while(true)switch(x){case 0:A.aS("la lista de clientes tiene"+v.a.c.length)
+while(true)switch(x){case 0:A.aR("la lista de clientes tiene"+v.a.c.length)
 u=v.c
 u.toString
 t=new A.eg(u)
@@ -85,7 +85,7 @@ x=6
 break
 case 7:t.mj("Por favor espere","Cargando")
 x=8
-return A.j(A.ex().G3(s,r,v.f.a.a,A.cc(u.a.a,null),v.r.a.a,v.Q.a.a,v.as.a.a,""),$async$VN)
+return A.k(A.ex().G3(s,r,v.f.a.a,A.cc(u.a.a,null),v.r.a.a,v.Q.a.a,v.as.a.a,""),$async$VN)
 case 8:v.A(new C.bxR(v))
 A.hn(B.cO,new C.bxS(v),y.F)
 u=t.b
@@ -120,7 +120,7 @@ $1(d){var x=this.a
 x.A(new C.bxE(x))},
 $S:174}
 C.bxE.prototype={
-$0(){A.aS(this.a.Q.a.a)},
+$0(){A.aR(this.a.Q.a.a)},
 $S:0}
 C.bxL.prototype={
 $2(d,e){var x
@@ -168,4 +168,4 @@ D.aGF=new A.bH("Carrera (OP)",null,null,null,null,null,null,null,null,null,null,
 D.aGT=new A.bH("Universidad (OP)",null,null,null,null,null,null,null,null,null,null,null,null)
 D.aH3=new A.bH("Nombre Whatsapp",null,null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_10",e:"endPart",h:b})})($__dart_deferred_initializers__,"D/HhHfDQ6Wi9Ff7bg0UZ75cW964=");
+a.eventLog.push({p:"main.dart.js_10",e:"endPart",h:b})})($__dart_deferred_initializers__,"nj1YD+2217KaA8tJ10LB+6IrCHg=");
