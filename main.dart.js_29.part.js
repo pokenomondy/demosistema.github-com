@@ -135,82 +135,80 @@ x.x=A.dL(w,w,w,!1,y.G)
 x.y=A.dL(w,w,w,!1,y.f)
 x.Q=A.dL(w,w,w,!1,y.A)
 x.as=A.dL(w,w,w,!1,y.y)
-x.iO()},
-iO(){var x=0,w=A.o(y.H),v=this,u,t,s,r,q,p,o,n,m
-var $async$iO=A.k(function(d,e){if(d===1)return A.l(e,w)
-while(true)switch(x){case 0:x=2
-return A.h(A.f1(B.y5,null,y.z),$async$iO)
+x.iC()},
+iC(){var x=0,w=A.o(y.H),v=this,u,t,s,r,q,p,o,n
+var $async$iC=A.k(function(d,e){if(d===1)return A.l(e,w)
+while(true)switch(x){case 0:n=y.z
+x=2
+return A.h(A.eX(B.jQ,null,n),$async$iC)
 case 2:u=v.r
 u===$&&A.a()
 if((u.b&4)===0){u=v.c
 u.toString
 t=v.f.md(u,"ADMIN")
-v.r.hL(0,t)}u=v.as
+v.r.hV(0,t)}u=v.x
 u===$&&A.a()
 if((u.b&4)===0){u=v.c
 u.toString
-s=v.f.mc(u,"ADMIN","")
-v.as.hL(0,s)}u=v.w
+s=v.f.nD(u)
+v.x.hV(0,s)}u=v.y
 u===$&&A.a()
 if((u.b&4)===0){u=v.c
 u.toString
-r=v.f.p7(u)
-v.w.hL(0,r)}u=v.x
+r=v.f.mz(u)
+v.y.hV(0,r)}u=v.z
 u===$&&A.a()
 if((u.b&4)===0){u=v.c
 u.toString
-q=v.f.nD(u)
-v.x.hL(0,q)}u=v.y
+q=v.f.nC(u)
+v.z.hV(0,q)}u=v.Q
 u===$&&A.a()
 if((u.b&4)===0){u=v.c
 u.toString
-p=v.f.mz(u)
-v.y.hL(0,p)}u=v.z
-u===$&&A.a()
-if((u.b&1)!==0){u=v.c
-u.toString
-o=v.f.nC(u)
-v.z.hL(0,o)}u=v.Q
+p=v.f.nE(u)
+v.Q.hV(0,p)}u=v.as
 u===$&&A.a()
 if((u.b&4)===0){u=v.c
 u.toString
-n=v.f.nE(u)
-v.Q.hL(0,n)}u=A.pS()
-m=v.c
-m.toString
-x=3
-return A.h(new H.a8Z(u).AH(m),$async$iO)
-case 3:v.at=e
+o=v.f.mc(u,"ADMIN","")
+v.as.hV(0,o)}x=3
+return A.h(A.eX(B.c8,null,n),$async$iC)
+case 3:n=A.pS()
+u=v.c
+u.toString
+x=4
+return A.h(new H.a8Z(n).AH(u),$async$iC)
+case 4:v.at=e
 v.B(new C.bys(v))
 return A.m(null,w)}})
-return A.n($async$iO,w)},
+return A.n($async$iC,w)},
 tX(){var x=0,w=A.o(y.H),v=this,u
 var $async$tX=A.k(function(d,e){if(d===1)return A.l(e,w)
-while(true)switch(x){case 0:u=v.as
+while(true)switch(x){case 0:u=v.r
 u===$&&A.a()
-u.aY(0)
-u=v.r
-u===$&&A.a()
-u.aY(0)
-u=v.x
-u===$&&A.a()
-if((u.b&4)===0)u.aY(0)
-u=v.y
-u===$&&A.a()
-if((u.b&4)===0)u.aY(0)
+if((u.b&1)!==0)u.aY(0)
 u=v.z
-u===$&&A.a()
-if((u.b&4)===0)u.aY(0)
-u=v.Q
 u===$&&A.a()
 if((u.b&1)!==0)u.aY(0)
 u=v.w
 u===$&&A.a()
-if((u.b&4)===0)u.aY(0)
-A.f1(B.ci,new C.byt(v),y.P)
+if((u.b&1)!==0)u.aY(0)
+u=v.x
+u===$&&A.a()
+if((u.b&1)!==0)u.aY(0)
+u=v.y
+u===$&&A.a()
+if((u.b&1)!==0)u.aY(0)
+u=v.Q
+u===$&&A.a()
+if((u.b&1)!==0)u.aY(0)
+u=v.as
+u===$&&A.a()
+if((u.b&1)!==0)u.aY(0)
+A.eX(B.c8,new C.byt(v),y.P)
 return A.m(null,w)}})
 return A.n($async$tX,w)},
-p(){A.aA("dispose solicitudes")
+p(){A.az("dispose solicitudes")
 this.tX()
 this.aA()},
 C(d){var x,w,v,u,t,s=this,r=null,q=y.w,p=A.ax(d,r,q).w.a.a,o=A.ax(d,r,q).w.a.b-80,n=p/5-16,m=s.e
@@ -233,7 +231,7 @@ u=A.b([q,x,w,v,A.fO(new C.byr(),new A.bZ(u,A.q(u).i("bZ<1>")),y.y)],t)
 if(p>=1200){q=s.d.a
 u.push(A.a5(A.b([new C.MP(n,q,r),new C.uG(n,"D < 4 hr","D2hr",o,q,r),new C.uG(n,"D < 12 hr","D6hr",o,q,r),new C.uG(n,"D > 12 hr","D12hr",o,q,r),new C.uG(n,"Esperando","ESPERANDO",o,q,r)],t),B.f,B.i,B.h,r))}if(p<1200&&p>620)u.push(new A.au(p-60-20,r,new C.MB(s.d.a,r),r))
 if(p<=620)u.push(new A.au(p-5-20,r,new C.MB(s.d.a,r),r))
-return A.kM(r,new A.O(F.yh,A.a5(u,B.f,B.i,B.h,r),r),r)}else return B.bB}}
+return A.kM(r,new A.O(F.yg,A.a5(u,B.f,B.i,B.h,r),r),r)}else return B.bB}}
 C.MB.prototype={
 R(){return new C.at6(B.l)}}
 C.at6.prototype={
@@ -686,4 +684,4 @@ D.ag5=new A.a3(50,30,50,30)
 D.ak9=new A.aT(984405,"MaterialIcons",null,!1)
 D.aNC=new A.b5("New solicitud",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_29",e:"endPart",h:b})})($__dart_deferred_initializers__,"1DllaDc3oPLjt1X1EdlP38PGTVE=");
+a.eventLog.push({p:"main.dart.js_29",e:"endPart",h:b})})($__dart_deferred_initializers__,"4rUKrXLY7eg0E2EGWMymtr5jvQw=");

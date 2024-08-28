@@ -64,19 +64,19 @@ x.an()
 if($.a2==null)B.eq()
 $.a2.toString
 x.f.hh().bl(0,new A.aXN(),y.P)
-x.iO()},
-iO(){var x=0,w=B.o(y.H),v=this,u,t
-var $async$iO=B.k(function(d,e){if(d===1)return B.l(e,w)
+x.iC()},
+iC(){var x=0,w=B.o(y.H),v=this,u,t
+var $async$iC=B.k(function(d,e){if(d===1)return B.l(e,w)
 while(true)switch(x){case 0:t=B.ee(v.w.id,y.L)
 x=2
-return B.h(t,$async$iO)
+return B.h(t,$async$iC)
 case 2:t=v.r
 t===$&&B.a()
 if((t.b&4)===0){t=v.c
 t.toString
 u=v.d.md(t,"TUTOR")
-v.r.hL(0,u)}return B.m(null,w)}})
-return B.n($async$iO,w)},
+v.r.hV(0,u)}return B.m(null,w)}})
+return B.n($async$iC,w)},
 p(){var x=this.r
 x===$&&B.a()
 if((x.b&1)!==0)x.aY(0)
@@ -88,7 +88,7 @@ if(q>620){w=q/2.1-30
 v=p-130
 u=this.f.a
 x.push(B.a5(B.b([new A.B8(w,"DISPONIBLES","DISPONIBLE",v,u,t),new A.B8(w,s,s,v,u,t)],r),C.f,C.i,C.h,t))}if(q<=620)x.push(new B.au(q-20,p-80,new A.a_G(t),t))
-return B.kM(t,new B.O(F.yh,B.a5(B.b([B.ac(x,C.f,t,C.i,C.h,C.m)],r),C.f,C.i,C.h,t),t),t)}}
+return B.kM(t,new B.O(F.yg,B.a5(B.b([B.ac(x,C.f,t,C.i,C.h,C.m)],r),C.f,C.i,C.h,t),t),t)}}
 A.B8.prototype={
 R(){return new A.azB(new B.A(Date.now(),!1),C.l)}}
 A.azB.prototype={
@@ -110,9 +110,9 @@ $S:9}
 A.bN4.prototype={
 $4(d,e,f,g){var x,w,v=e.a,u=f.r,t=this.a,s=u.a
 t.d=s
-B.aA("nombre del tutor "+s)
+B.az("nombre del tutor "+s)
 s=J.T(v)
-B.aA("las solicitudes son "+s.gq(v))
+B.az("las solicitudes son "+s.gq(v))
 x=B.b([],y.e)
 w=t.a.e
 if(w==="DISPONIBLE"){u=s.jx(v,new A.bN1(t,u.z))
@@ -167,4 +167,4 @@ B.oi(b.typeUniverse,JSON.parse('{"B8":{"K":[],"c":[]},"a_G":{"K":[],"c":[]},"yy"
 var y=(function rtii(){var x=B.aj
 return{C:x("v<dR>"),g:x("v<iJ>"),e:x("v<eS>"),p:x("v<c>"),t:x("G<eS>"),w:x("j7"),P:x("bU"),l:x("f2"),j:x("fW"),L:x("pg?"),H:x("~")}})();(function constants(){E.afL=new B.a3(20,20,0,20)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_35",e:"endPart",h:b})})($__dart_deferred_initializers__,"drDdhFA1A1CUnOFVctcdv9T66uI=");
+a.eventLog.push({p:"main.dart.js_35",e:"endPart",h:b})})($__dart_deferred_initializers__,"hagW10G223/SSUKIof19mztJ9Yg=");

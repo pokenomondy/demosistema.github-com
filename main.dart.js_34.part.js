@@ -209,7 +209,7 @@ ab(){var x,w=this
 w.an()
 w.Hr()
 x=y.P
-B.f1(C.lX,new A.bkA(w),x)
+B.eX(C.jQ,new A.bkA(w),x)
 if($.a2==null)B.eq()
 $.a2.toString
 w.cx.hh().bl(0,new A.bkB(w),x)},
@@ -233,8 +233,8 @@ if(x===$?this.k2=!1:x)return B.dz(new A.bkx(this),y.l)
 else return C.bB},
 hH(d,e,f,g){var x,w=this,v=null,u=B.a8(v,v,C.v,v,v,v,v,v,"Poppins",v,v,14,v,v,C.Y,v,v,!0,v,v,v,v,v,v,v,v),t=y.p,s=B.b([],t),r=w.e
 if(!r[f]){x=w.a.c
-x=B.b([B.a4(v,B.y(d+" : "+e,v,v,v,v,v,u,v,v,v),C.j,v,v,v,v,v,v,C.yg,D.ag0,v,v,x-60)],t)
-if(!g)x.push(B.cw(B.bw(v,C.k9,C.u,!1,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,new A.bl1(w,f),v,v,v,v,v,v),C.af,v,v,v,v,v))
+x=B.b([B.a4(v,B.y(d+" : "+e,v,v,v,v,v,u,v,v,v),C.j,v,v,v,v,v,v,C.yf,D.ag0,v,v,x-60)],t)
+if(!g)x.push(B.cw(B.bw(v,C.ka,C.u,!1,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,new A.bl1(w,f),v,v,v,v,v,v),C.af,v,v,v,v,v))
 s.push(B.a5(x,C.f,C.L,C.h,v))}if(r[f]){r=B.b([],t)
 if(f===1)r.push(new B.eC(1,C.bc,B.fA(!0,C.aD,!1,C.z,B.fF(),v,v,v,C.aI,1,v,C.u,!0,v,!0,v,!1,v,v,v,v,v,v,v,v,v,v,v,v,!1,"\u2022",new A.bl2(w),v,v,v,v,C.bp,e,v,v,C.a4,!1,v,!0,v,C.aS,v,v,C.aQ,C.aL,v,v,v,v,v,v,v,C.a4,C.E,v,C.b5,v,v,v),v))
 if(f===2)r.push(new B.eC(1,C.bc,B.fA(!0,C.aD,!1,C.z,B.fF(),v,v,v,C.aI,1,v,C.u,!0,v,!0,v,!1,v,v,v,v,v,v,v,v,v,v,v,v,!1,"\u2022",new A.bl3(w),v,v,v,v,C.bp,e,v,v,C.a4,!1,v,!0,v,C.aS,v,v,C.aQ,C.aL,v,v,v,v,v,v,v,C.a4,C.E,v,C.b5,v,v,v),v))
@@ -303,7 +303,7 @@ else if(C.b.dv(w.id,new A.blw(w)))x.ih(0,"Error, la mater\xeda ya fue agregada",
 else{B.dg().Lm(w.dx,w.w.a)
 x.hu("La operaci\xf3n salio exitosa","Exito")
 w.B(new A.blx(w))
-B.f1(B.ci(0,0,0,0,0,1),new A.bly(w),y.P)}},
+B.eX(B.ci(0,0,0,0,0,1),new A.bly(w),y.P)}},
 bCR(){var x,w,v,u=this,t=u.c
 t.toString
 x=new B.dk(t)
@@ -316,7 +316,7 @@ v.toString
 t.Lh(w,v,u.Q.a.a,u.as.a.a,u.at.a.a)
 x.hu("La operaci\xf3n salio exitosa","Exito")
 u.B(new A.blt(u))
-B.f1(B.ci(0,0,0,0,0,1),new A.blu(u),y.P)}}}
+B.eX(B.ci(0,0,0,0,0,1),new A.blu(u),y.P)}}}
 A.Fg.prototype={
 R(){return new A.as_(B.aH(),C.l)}}
 A.as_.prototype={
@@ -364,7 +364,7 @@ a5.id=a4.z
 a5.k1=a4.Q
 if(!a5.go){a5.dy=a4.w
 x=a4.ay
-B.aA("cargamos "+a4.a+" y permisops "+B.f(x))
+B.az("cargamos "+a4.a+" y permisops "+B.f(x))
 a5.ok=x.a
 a5.p1=x.b
 a5.p2=x.c
@@ -761,7 +761,7 @@ $R:3,
 $S:177}
 A.btl.prototype={
 $2(d,e){var x=null,w=this.b.z[e],v=B.aL(80),u=B.y("Materia: ",x,x,x,x,x,B.a8(x,x,C.ai,x,x,x,x,x,"Poppins",x,x,15,x,x,C.x,x,x,!0,x,x,x,x,x,x,x,x),x,x,x),t=w.a,s=y.p
-return new B.O(F.yk,B.ac(B.b([B.a4(C.M,new B.O(C.Fq,B.a5(B.b([B.a5(B.b([u,B.y(t,x,x,x,x,x,B.a8(x,x,C.ai,x,x,x,x,x,"Poppins",x,x,14,x,x,C.Y,x,x,!0,x,x,x,x,x,x,x,x),x,x,x)],s),C.f,C.i,C.h,x)],s),C.f,C.L,C.h,x),x),C.j,x,x,new B.as(C.k,x,x,v,x,x,x,C.p),x,50,x,x,x,x,x,x)],s),C.f,x,C.i,C.h,C.m),x)},
+return new B.O(F.yj,B.ac(B.b([B.a4(C.M,new B.O(C.Fq,B.a5(B.b([B.a5(B.b([u,B.y(t,x,x,x,x,x,B.a8(x,x,C.ai,x,x,x,x,x,"Poppins",x,x,14,x,x,C.Y,x,x,!0,x,x,x,x,x,x,x,x),x,x,x)],s),C.f,C.i,C.h,x)],s),C.f,C.L,C.h,x),x),C.j,x,x,new B.as(C.k,x,x,v,x,x,x,C.p),x,50,x,x,x,x,x,x)],s),C.f,x,C.i,C.h,C.m),x)},
 $S:86}
 A.bBA.prototype={
 $1(d){var x=this.a
@@ -798,4 +798,4 @@ return{I:x("aW<fb>"),u:x("aW<dR>"),G:x("aW<eT>"),D:x("fb"),i:x("v<fb>"),_:x("v<t
 D.ag0=new B.a3(0,5.5,10,5.5)
 D.aNz=new B.b5("Tipo de cuenta",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_34",e:"endPart",h:b})})($__dart_deferred_initializers__,"CKrJ7wiRodI8v1xK1nvbx8G38yA=");
+a.eventLog.push({p:"main.dart.js_34",e:"endPart",h:b})})($__dart_deferred_initializers__,"1z/ZREIO1z54bg2+RBhV/33jq9A=");

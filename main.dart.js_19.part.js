@@ -180,7 +180,7 @@ R(){var x=y.t
 return new B.avv(A.b([],x),A.b([],x),A.b([],y.X),C.l)}}
 B.avv.prototype={
 ab(){this.an()},
-p(){A.aA("dispose wachat - plantillas")
+p(){A.az("dispose wachat - plantillas")
 this.aA()},
 C(d){var x=y.w
 A.ax(d,null,x).toString
@@ -201,8 +201,8 @@ v.d=x
 if((x.b&4)===0){x=v.c
 x.toString
 w=v.e.p_(x)
-v.d.hL(0,w)}},
-p(){A.aA("dispose wachat - dashboard chat")
+v.d.hV(0,w)}},
+p(){A.az("dispose wachat - dashboard chat")
 var x=this.d
 x===$&&A.a()
 if((x.b&1)!==0)x.aY(0)
@@ -298,10 +298,10 @@ t=A.bD(t,!1,y.l).r
 u=v.f
 x=u.a.a.length===0?2:4
 break
-case 2:A.aA("no enviar")
+case 2:A.az("no enviar")
 x=3
 break
-case 4:A.aA("enviar")
+case 4:A.az("enviar")
 x=5
 return A.h(new B.a9h(A.bt()).J3(d,u.a.a,t.a),$async$QW)
 case 5:v.B(new B.ccu(v))
@@ -316,7 +316,7 @@ return A.a4(x,A.dz(new B.ccS(this),y.r),C.j,x,x,x,x,w,x,x,x,x,x,v)}}
 B.a90.prototype={
 R(){return new B.aML(A.b(["Item 1","Item 2","Item 3","Item 4","Item 5"],y.s),C.l)}}
 B.aML.prototype={
-p(){A.aA("dispose wachat - embudo")
+p(){A.az("dispose wachat - embudo")
 this.aA()},
 C(d){var x=null
 return A.ac(A.b([A.y("ss",x,x,x,x,x,x,x,x,x)],y.p),C.f,x,C.i,C.h,C.m)}}
@@ -344,14 +344,14 @@ b5="la ultima fehcha es "
 b6=A
 x=5
 return A.ap(r.VH(),$async$p_,w)
-case 5:b4.aA(b5+b6.f(c0))
+case 5:b4.az(b5+b6.f(c0))
 x=!o?6:8
 break
-case 6:A.aA("cangado sin cache")
+case 6:A.az("cangado sin cache")
 n=b3.ie()
 x=7
 break
-case 8:A.aA("cargado con cache")
+case 8:A.az("cargado con cache")
 n=b3.ie()
 x=9
 return A.ap(r.b.k0(new B.caO(),y.A),$async$p_,w)
@@ -372,7 +372,7 @@ else a6.$1("EJECUTANDO CHATS STREAM")
 l=A.b([],a5)
 for(a7=m.gnU(),a8=a7.length,a9=0;a9<a7.length;a7.length===a8||(0,A.N)(a7),++a9){k=a7[a9]
 try{b0=k
-b0=J.bN(b0).pg(b0)
+b0=J.bN(b0).pf(b0)
 b0.toString
 j=a4.a(b0)
 i=A.cwn(j)
@@ -475,7 +475,7 @@ break}o=b8.gT(0)
 n=A.b([],e)
 for(d=o.gnU(),a0=d.length,a1=0;a1<d.length;d.length===a0||(0,A.N)(d),++a1){m=d[a1]
 try{a2=m
-a2=J.bN(a2).pg(a2)
+a2=J.bN(a2).pf(a2)
 a2.toString
 l=h.a(a2)
 a2=l
@@ -543,7 +543,7 @@ return A.n($async$XP,w)},
 J3(d,e,f){return this.aKQ(d,e,f)},
 aKQ(d,e,f){var x=0,w=A.o(y.z),v=this,u,t,s,r,q,p,o,n,m
 var $async$J3=A.k(function(g,h){if(g===1)return A.l(h,w)
-while(true)switch(x){case 0:A.aA("vamos en "+d)
+while(true)switch(x){case 0:A.az("vamos en "+d)
 u=y.z
 x=2
 return A.h(v.XP(),$async$J3)
@@ -564,7 +564,7 @@ n="Task created: "
 m=A
 x=3
 return A.h(new B.bm2(new A.na(t,"https://cloudtasks.googleapis.com/","",s)).W7(0,new B.aW6(r),"projects/dufy-asesorias/locations/us-central1/queues/chat-procesamiento-envio-mensajes"),$async$J3)
-case 3:o.aA(n+m.f(h.w))
+case 3:o.az(n+m.f(h.w))
 return A.m(null,w)}})
 return A.n($async$J3,w)},
 Pr(d){return this.bCt(d)},
@@ -602,7 +602,7 @@ return A.n($async$Po,w)}}
 B.wr.prototype={
 R(){return new B.Kb(C.l)}}
 B.Kb.prototype={
-p(){A.aA("dispose wachat")
+p(){A.az("dispose wachat")
 this.aA()},
 C(d){return A.dz(new B.bcU(this),y._)}}
 B.pU.prototype={
@@ -622,7 +622,7 @@ while(true)switch(x){case 0:t=C.ab.rJ(e)
 s=B
 r=y.P
 x=3
-return A.h(u.a.aEE(0,"v2/"+A.lv(C.kz,f,C.aF,!1)+"/tasks","POST",t,A.w(y.N,y.a)),$async$W7)
+return A.h(u.a.aEE(0,"v2/"+A.lv(C.kA,f,C.aF,!1)+"/tasks","POST",t,A.w(y.N,y.a)),$async$W7)
 case 3:v=s.cNI(r.a(h))
 x=1
 break
@@ -733,8 +733,8 @@ B.bGt.prototype={
 $2(d,e){var x,w,v,u=null,t=this.b[e],s=y.p,r=A.b([A.y("Categoria "+t.b,u,u,u,u,u,u,u,u,u),A.y("nombre plantilla "+t.c,u,u,u,u,u,u,u,u,u),A.y("Existe: "+t.d,u,u,u,u,u,u,u,u,u)],s)
 if(t.d){x=$.ya()
 s=A.b([],s)
-for(w=J.az(J.aa(t.e,"components")),v=this.a;w.A();)s.push(v.bqG(w.gT(w)))
-r.push(A.a4(u,A.ac(s,C.f,u,C.i,C.h,C.m),C.j,x,u,u,u,u,u,u,u,u,u,300))}return A.lA(u,C.cg,A.ac(r,C.f,u,C.i,C.h,C.m),u,C.dH)},
+for(w=J.aA(J.aa(t.e,"components")),v=this.a;w.A();)s.push(v.bqG(w.gT(w)))
+r.push(A.a4(u,A.ac(s,C.f,u,C.i,C.h,C.m),C.j,x,u,u,u,u,u,u,u,u,u,300))}return A.lA(u,C.ch,A.ac(r,C.f,u,C.i,C.h,C.m),u,C.dH)},
 $S:75}
 B.aXU.prototype={
 $2(d,e){var x,w=null
@@ -818,7 +818,7 @@ n=x.d
 m=A.y(C.bS.k(n),j,j,j,j,j,j,j,j,j)
 l=A.y(C.c.k(x.e),j,j,j,j,j,j,j,j,j)
 n=n?A.y("Desarchivar Chat",j,j,j,j,j,j,j,j,j):A.y("Archivar Chat",j,j,j,j,j,j,j,j,j)
-return A.bw(j,A.lA(r,C.cg,A.ac(A.b([q,u,p,o,m,l,A.nr(n,new B.ccx(t,x))],y.p),C.f,j,C.i,C.h,C.m),j,C.dH),C.u,!1,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,new B.ccy(),j,j,j,new B.ccz(t,d,x,i,k.d),j,j,j,j,j,j)},
+return A.bw(j,A.lA(r,C.ch,A.ac(A.b([q,u,p,o,m,l,A.nr(n,new B.ccx(t,x))],y.p),C.f,j,C.i,C.h,C.m),j,C.dH),C.u,!1,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,new B.ccy(),j,j,j,new B.ccz(t,d,x,i,k.d),j,j,j,j,j,j)},
 $S:1259}
 B.ccw.prototype={
 $2(d,e){return C.c.bq(e.a,d.a)},
@@ -843,7 +843,7 @@ if(x.d)w.Lc(v,!1)
 else w.Lc(v,!0)},
 $S:0}
 B.ccy.prototype={
-$0(){A.aA("click derecho detectado")},
+$0(){A.az("click derecho detectado")},
 $S:0}
 B.ccn.prototype={
 $4(d,e,f,g){var x,w,v,u=null,t=e.b,s=f.b,r=A.mp(t.b*1000,!1),q=C.c.af(A.ci(0,0,0,Date.now()-r.gbV(),0,0).a,36e8),p=t.c
@@ -1105,4 +1105,4 @@ D.aNr=new A.b5("Move",null,null,null,null,null,null,null,null,null,null,null)
 D.aNs=new A.b5("Chats",null,null,null,null,null,null,null,null,null,null,null)
 D.aNA=new A.b5("Unpin",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_19",e:"endPart",h:b})})($__dart_deferred_initializers__,"OpXB86kbymVijKqS+GR+vGLu3qc=");
+a.eventLog.push({p:"main.dart.js_19",e:"endPart",h:b})})($__dart_deferred_initializers__,"/Q2VEgAjkyCAbWgUPSLkyU5L0uo=");
