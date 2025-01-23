@@ -230,32 +230,32 @@ var $async$aid=B.k(function(f,g){if(f===1)return B.l(g,w)
 while(true)switch(x){case 0:t=v.c
 t.toString
 u=new B.d6(t)
-if(e===""){B.aI()
-B.aI()
-u.fY(0,"Debe ingresar un valor para cambiar","Error")}else{B.aI()
-B.aI()
+if(e===""){B.aK()
+B.aK()
+u.ho(0,"Debe ingresar un valor para cambiar","Error")}else{B.aK()
+B.aK()
 u.mZ("Por favor espere","Cargando")
 t=u.b
 t===$&&B.a()
-B.bR(t,!1).d6(null)
-B.aI()
-B.aI()
+B.bT(t,!1).dd(null)
+B.aK()
+B.aK()
 u.fw("La operaci\xf3n salio exitosa","Exito")
 v.A(new A.bsL(v,d))}return B.m(null,w)}})
 return B.n($async$aid,w)},
 bPG(){var x,w,v,u=this,t=u.c
 t.toString
 x=new B.d6(t)
-if(u.w==null){B.aI()
-B.aI()
-x.fY(0,"Error, debe seleccionar un materia","Error")}else if(C.b.em(u.go,new A.bsI(u))){B.aI()
-B.aI()
-x.fY(0,"Error, la mater\xeda ya fue agregada","Error")}else{t=B.p9()
+if(u.w==null){B.aK()
+B.aK()
+x.ho(0,"Error, debe seleccionar un materia","Error")}else if(C.b.em(u.go,new A.bsI(u))){B.aK()
+B.aK()
+x.ho(0,"Error, la mater\xeda ya fue agregada","Error")}else{t=B.p9()
 w=u.dx
 v=u.w.a
 if(w!=="")if(v!=="")t.a.NB("",w,v,"")
-B.aI()
-B.aI()
+B.aK()
+B.aK()
 x.fw("La operaci\xf3n salio exitosa","Exito")
 u.A(new A.bsJ(u))
 B.fU(B.cl(0,0,0,0,0,1),new A.bsK(u),y.P)}}}
@@ -311,9 +311,9 @@ return B.h(B.p9().abR(d,v.f.r),$async$TB)
 case 2:t=f
 s=J.U(t)
 if(!s.h(t,"success")){s=s.h(t,"message")
-B.aI()
-u.fY(0,s,"Error")}else{s=s.h(t,"message")
-B.aI()
+B.aK()
+u.ho(0,s,"Error")}else{s=s.h(t,"message")
+B.aK()
 u.fw(s,"La operaci\xf3n salio exitosa")}return B.m(null,w)}})
 return B.n($async$TB,w)},
 nv(d,e){return this.bJ2(d,e)},
@@ -327,8 +327,8 @@ return B.h(B.p9().ag0(e,d,v.f.r),$async$nv)
 case 2:u=g
 t=J.U(u)
 if(!t.h(u,"success")){t=t.h(u,"message")
-B.aI()
-new B.d6(s).fY(0,t,"Error")}return B.m(null,w)}})
+B.aK()
+new B.d6(s).ho(0,t,"Error")}return B.m(null,w)}})
 return B.n($async$nv,w)}}
 var z=a.updateTypes([])
 A.bsg.prototype={
@@ -692,4 +692,4 @@ D.aj0=new B.a4(0,5.5,10,5.5)
 D.a2g=new B.al(null,30,null,null)
 D.aSj=B.bA("H")})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_15",e:"endPart",h:b})})($__dart_deferred_initializers__,"5zSriPqTM5T4tKasngazUIZykao=");
+a.eventLog.push({p:"main.dart.js_15",e:"endPart",h:b})})($__dart_deferred_initializers__,"Hmgwc3t0UwF+vp+/1eN5DhG/+rY=");

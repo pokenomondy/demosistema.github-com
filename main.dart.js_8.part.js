@@ -54,7 +54,7 @@ this.c=d},
 cHi(d){if(d==null)return null
 return((B.cM(d)<<3|B.cY(d)>>>3)&255)<<8|((B.cY(d)&7)<<5|B.hQ(d)/2|0)&255},
 cHa(d){if(d==null)return null
-return(((B.ay(d)-1980&127)<<1|B.aT(d)>>>3)&255)<<8|((B.aT(d)&7)<<5|B.bS(d))&255},
+return(((B.ay(d)-1980&127)<<1|B.aT(d)>>>3)&255)<<8|((B.aT(d)&7)<<5|B.bR(d))&255},
 aOS:function aOS(){var _=this
 _.a=$
 _.f=_.e=_.d=_.c=_.b=0
@@ -1101,7 +1101,7 @@ cY9(d,e,f){var w=!1
 if(d<24)if(e<60)w=f<60
 if(w)return(d*3600+e*60+f)*1e4*1000
 throw B.f(B.dB("Not valid time"))},
-csc(d){var w=A.cY8(B.ay(d),B.aT(d),B.bS(d))+A.cY9(B.cM(d),B.cY(d),B.hQ(d))
+csc(d){var w=A.cY8(B.ay(d),B.aT(d),B.bR(d))+A.cY9(B.cM(d),B.cY(d),B.hQ(d))
 if(w===0)return 0
 if(w<31241376e9)throw B.f(B.dB("Arg_OleAutDateInvalid"))
 return(w-599264352e9)/1e4/864e5},
@@ -3165,10 +3165,10 @@ return B.n($async$a2Y,v)},
 Ms(d,e){return B.kH(new A.bqq(this,e),d,x.cK)},
 b5x(d,e){var w,v,u,t,s,r,q,p,o=null,n="descripcion",m="Poppins",l="Descripcion",k="placeholder",j="idCarpeta",i="boton",h=e.h(0,"titulo")
 h.toString
-h=Math.ceil(J.aK(h)/20)
+h=Math.ceil(J.aJ(h)/20)
 w=e.h(0,n)
 w.toString
-w=Math.ceil(J.aK(w)/30)
+w=Math.ceil(J.aJ(w)/30)
 v=e.h(0,n)
 v.toString
 v=J.vW(v,"\n").length
@@ -6213,15 +6213,15 @@ $0(){var w,v=this,u=v.a.a,t=v.c,s=v.d,r=v.b.c
 r.toString
 w=new B.d6(r)
 r=t.a.a
-if(r===""){B.aI()
-B.aI()
-w.fY(0,"Debe ingresar un valor para cambiar","Error")}else if(C.b.p(u,r)){B.aI()
-B.aI()
-w.fY(0,"Error, este dato ya existe","Error")}else{if(s==="MATERIA")new A.b_4(new A.bmk(B.bU(),C.c.au(Date.now(),1000),new B.ae(Date.now(),0,!1))).abt(t.a.a,"","")
+if(r===""){B.aK()
+B.aK()
+w.ho(0,"Debe ingresar un valor para cambiar","Error")}else if(C.b.p(u,r)){B.aK()
+B.aK()
+w.ho(0,"Error, este dato ya existe","Error")}else{if(s==="MATERIA")new A.b_4(new A.bmk(B.bU(),C.c.au(Date.now(),1000),new B.ae(Date.now(),0,!1))).abt(t.a.a,"","")
 else if(s==="UNIVERSIDAD")B.qN().NH(t.a.a)
 else if(s==="CARRERA")B.qN().Np(t.a.a)
-B.aI()
-B.aI()
+B.aK()
+B.aK()
 w.fw("La operaci\xf3n salio exitosa","Exito")}},
 $S:0}
 A.bsX.prototype={
@@ -6301,13 +6301,13 @@ $S:0}
 A.bqo.prototype={
 $0(){var w=this.a,v=this.b
 B.qN().J9(v.h(0,"motivo"),v.h(0,"controller"))
-B.bR(w,!1).d6(null)
-B.aI()
-B.aI()
+B.bT(w,!1).dd(null)
+B.aK()
+B.aK()
 new B.d6(w).fw("La operaci\xf3n salio exitosa","Exito")},
 $S:0}
 A.bqp.prototype={
-$0(){B.bR(this.a,!1).d6(null)
+$0(){B.bT(this.a,!1).dd(null)
 return null},
 $S:0}
 A.bqK.prototype={
@@ -6401,7 +6401,7 @@ this.a.a=w},
 $S:0}
 A.bqu.prototype={
 $0(){this.b.$1(this.a.a)
-B.bR(this.c,!1).kw()},
+B.bT(this.c,!1).kw()},
 $S:0}
 A.aYE.prototype={
 $0(){var w=this.a
@@ -8275,4 +8275,4 @@ w($,"dis","cOZ",()=>B.c0("[&<\\u0001-\\u0008\\u000b\\u000c\\u000e-\\u001f\\u007f
 w($,"di4","cOI",()=>B.c0("['&<\\n\\r\\t\\u0001-\\u0008\\u000b\\u000c\\u000e-\\u001f\\u007f-\\u0084\\u0086-\\u009f]",!0,!1,!1))
 w($,"dha","cO5",()=>B.c0('["&<\\n\\r\\t\\u0001-\\u0008\\u000b\\u000c\\u000e-\\u001f\\u007f-\\u0084\\u0086-\\u009f]',!0,!1,!1))})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_8",e:"endPart",h:b})})($__dart_deferred_initializers__,"UmGuLCIxr5GTDGre/68Han2C30M=");
+a.eventLog.push({p:"main.dart.js_8",e:"endPart",h:b})})($__dart_deferred_initializers__,"erqShG58Heaz0Wi7dETVTpPF+vk=");
